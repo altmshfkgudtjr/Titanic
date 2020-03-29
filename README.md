@@ -1,8 +1,5 @@
 # 타이타닉 분석
 
-![image-20200327121648814](C:\Users\NB\AppData\Roaming\Typora\typora-user-images\image-20200327121648814.png)
-
-
 
 ### 통계
 
@@ -139,14 +136,14 @@ S 생존/죽음: 217 / 427
 - **지표** : 나이, 성별, 지인 유무, 좌석 클래스
 
 - **학습**
-
-  ![image-20200326225402350](C:\Users\NB\AppData\Roaming\Typora\typora-user-images\image-20200326225402350.png)
+ 
+ /*블로그참고*/
 
 - **정확도** : 82.83%
 
-- **결과**
-  ![image-20200327000230733](C:\Users\NB\AppData\Roaming\Typora\typora-user-images\image-20200327000230733.png)
+/*블로그참고*/
 
+- **결과**
   - 제일 관련이 있을만할 나이, 성별 ,지인 유무,  클래스 등급을 지표로 둔 결과 약 82%의 정확도가 나왔다.
   - 본 모델은 결과가 0 또는 1이 나오는 모델이므로 마지막 activation function을 sigmoid function을 사용하였다.
   - sigmoid function은 0 ~ 1 사이의 값밖만 다루므로, ReLU function을 사용하여서 x < 0 일 경우에는 0을 반환, x > 1 일 경우에는 1을 반환하여 값을 범위지었다.
@@ -161,13 +158,13 @@ S 생존/죽음: 217 / 427
 
 - **학습**
 
-  ![image-20200327000209951](C:\Users\NB\AppData\Roaming\Typora\typora-user-images\image-20200327000209951.png)
+/*블로그참고*/
 
 - **정확도** : 82.27%
 
-- **결과**
-  ![image-20200327000240050](C:\Users\NB\AppData\Roaming\Typora\typora-user-images\image-20200327000240050.png)
+/*블로그참고*/
 
+- **결과**
   - 선실번호를 추가해봤지만, 성능이 더 좋아지지는 않고, 거의 유지하고 있다.
   - 선실등급이 생존률에 큰 영향이 없다는 것을 확인하였다.
 
@@ -177,7 +174,6 @@ S 생존/죽음: 217 / 427
 
 ### 제출결과
 
-![image-20200327004503583](C:\Users\NB\AppData\Roaming\Typora\typora-user-images\image-20200327004503583.png)
 
 - 본 테스트에서 82.83%의 모델이였지만, Kaggle 에 직접 제출해보니 76.60% 의 정확도를 얻었다.
 - HAHA...
