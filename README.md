@@ -1,6 +1,6 @@
 # 타이타닉 분석
 
-
+https://www.kaggle.com/search
 ### 통계
 
 - 전체인원 : 891
